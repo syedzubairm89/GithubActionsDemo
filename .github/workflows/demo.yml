@@ -1,8 +1,18 @@
 name: hello-world
 'on': push
 jobs:
-  my-job:
+  Run-npm-on-Ubuntu:
+    name: Run npm on Ubuntu
     runs-on: ubuntu-latest
     steps:
       - name: my-step
         run: echo "Hello World!"
+  Run-PSScriptAnalyzer-on-mac:
+     name: Run PSScriptAnalyzer on Windows
+     runs-on: macos-latest
+     steps:
+       - name: my-step
+         run: echo "Hello World2!"
+
+
+      
