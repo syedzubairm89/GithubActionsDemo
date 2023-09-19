@@ -8,7 +8,7 @@ jobs:
       - name: my-step
         run: echo "Hello World!"
   Run-PSScriptAnalyzer-on-mac:
-     name: Run PSScriptAnalyzer on Windows
+     name: Run PSScriptAnalyzer on mac
      runs-on: macos-latest
      steps:
        - name: my-step
