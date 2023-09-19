@@ -3,13 +3,13 @@ name: hello-world
 jobs:
   Run-npm-on-Ubuntu:
     name: Run npm on Ubuntu
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - name: my-step
         run: echo "Hello World!"
   Run-PSScriptAnalyzer-on-mac:
      name: Run PSScriptAnalyzer on mac
-     runs-on: macos-latest
+     runs-on: self-hosted
      steps:
        - name: my-step
          run: echo "Hello World2!"
